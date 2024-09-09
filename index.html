@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Havor Project</title>
+    <style>
+        body {
+            background-color: rgb(227, 189, 139);
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        h1 { 
+            color: rgb(15, 15, 14);
+            font-family: serif;
+            font-size: 50px;
+            text-align: center;
+            margin: 20px 0;
+        } 
+        h3 {
+            color: dimgrey;
+            font-style: italic;
+            text-align: center;
+            margin: 10px 0;
+        }
+        .logo-container {
+            text-align: center;
+            background-color: yellow;
+            padding:30px;
+            margin-top: 20px;
+            margin: 20px auto;
+            padding-top: 30px;
+            padding-bottom: 5px;
+            
+        }
+        .logo {
+            width: 120px;
+            height: 170px;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            padding: 15px;
+            background-color: #333;
+            position: static;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 100px auto;
+        }
+        .box {
+            background-color: gold;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 0 20px 2px rgba(90, 82, 82, 0.1);
+            border-radius: 5px;
+            transition: transform 1s;
+        }
+        .box img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .box button {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .box button:hover {
+            background-color: #575757;
+        }
+        .box:hover {
+            transform: scale(1.1);
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="navbarhome.html">HOME</a>
+        <a href="specials.html">OFFERS</a>
+        <a href="To Contact.html">TO CONTACT</a>
+        <a href="aboutus.html">ABOUT US</a>
+    </div>
+
+    <div class="logo-container">
+        <img class="logo" src="https://dcassetcdn.com/design_img/2482468/513755/513755_13104885_2482468_e34a63c5_image.png" alt="Logo">
+    </div>
+    
+    <h1>Biriyani Bowl</h1>
+    <h3>Since 1999</h3>
+    
+    <div class="container">
+        <div class="box">
+            <img src="https://shantikitchens.com/wp-content/uploads/2024/01/chicken-biryani.jpg" alt="Chicken Biryani">
+            <button>CHICKEN BIRIYANI</button>
+        </div>
+        <div class="box">
+            <img src="https://www.cookwithnabeela.com/wp-content/uploads/2024/02/MuttonBiryani.webp" alt="Mutton Biryani">
+            <button>MUTTON BIRIYANI</button>
+        </div>
+        <div class="box">
+            <img src="https://spicecravings.com/wp-content/uploads/2020/10/Egg-Biryani-Featured-1.jpg" alt="Egg Biryani">
+            <button>EGG BIRIYANI</button>
+        </div>
+        <div class="box">
+            <img style="width: 360px;; height: 275px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSs3vPCse3jabb7km0NmqZO5DEiQZpwmTZuyyhQpR2IlQWfprIX71WaEox2K4pncJpqNA&usqp=CAU" alt="Thokku Biryani">
+            <button>THOKKU BIRIYANI</button>
+        </div>
+        <div class="box">
+            <img  src="https://foodfusion.com/wp-content/uploads/2018/07/Nalli-Biryani-Recipe-by-Food-fusion-3.jpg" alt="Nalli Biryani">
+            <button>NALLI BIRIYANI</button>
+        </div>
+        <div class="box">
+            <img style="width: 360px;; height: 275px;"  src="https://www.tomatoblues.com/wp-content/uploads/2020/05/Mushroom-Biriyani-1-of-1-2-500x500.jpg" alt="Kaalan Biryani">
+            <button>KAALAN BIRIYANI</button>
+        </div>
+    </div>
+
+    <h1>THANKING YOU</h1>
+   <center><h2>VISIT OUR WEBSITE AGAIN</h2></center> 
+</body>
+</html>
